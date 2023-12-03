@@ -1,0 +1,85 @@
+Filename,issue_cwe_id,issue_text,issue_severity,test_id,test_name
+Python/0856c3a4-2673-4d24-869d-47b4d128d099_0.py,330,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,LOW,B311,blacklist
+Python/0b7b9fec-30b4-40dd-b887-fb7328f303f2_0.py,78,Use of exec detected.,MEDIUM,B102,exec_used
+Python/0b86282d-7073-41c5-ba97-40de9902ae01_0.py,605,Possible binding to all interfaces.,MEDIUM,B104,hardcoded_bind_all_interfaces
+Python/184ff4fa-49c5-40f6-9d6c-0a0b2d13971b_0.py,400,Requests call without timeout,MEDIUM,B113,request_without_timeout
+Python/184ff4fa-49c5-40f6-9d6c-0a0b2d13971b_0.py,259,Possible hardcoded password: 'your_github_access_token',LOW,B105,hardcoded_password_string
+Python/25c2703e-d89d-465c-9808-4df1b3eb40fa_0.py,502,Consider possible security implications associated with pickle module.,LOW,B403,blacklist
+Python/25c2703e-d89d-465c-9808-4df1b3eb40fa_0.py,502,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",MEDIUM,B301,blacklist
+Python/25c2703e-d89d-465c-9808-4df1b3eb40fa_1.py,502,Consider possible security implications associated with pickle module.,LOW,B403,blacklist
+Python/25c2703e-d89d-465c-9808-4df1b3eb40fa_1.py,502,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",MEDIUM,B301,blacklist
+Python/33867c63-5def-4c0a-9ad0-19317f737515_0.py,400,Requests call without timeout,MEDIUM,B113,request_without_timeout
+Python/33867c63-5def-4c0a-9ad0-19317f737515_0.py,400,Requests call without timeout,MEDIUM,B113,request_without_timeout
+Python/33867c63-5def-4c0a-9ad0-19317f737515_0.py,400,Requests call without timeout,MEDIUM,B113,request_without_timeout
+Python/3767033d-7da0-47e3-9383-a5556e4dc1eb_1.py,94,"A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.",HIGH,B201,flask_debug_true
+Python/3b41287a-bd84-4f08-823a-ce9c0c0e7f03_0.py,703,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,LOW,B101,assert_used
+Python/3b41287a-bd84-4f08-823a-ce9c0c0e7f03_0.py,703,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,LOW,B101,assert_used
+Python/3ba6a4c6-ed44-42fd-92ad-cfba44c3f5aa_0.py,78,Consider possible security implications associated with the subprocess module.,LOW,B404,blacklist
+Python/3ba6a4c6-ed44-42fd-92ad-cfba44c3f5aa_0.py,78,"Possible shell injection via Paramiko call, check inputs are properly sanitized.",MEDIUM,B601,paramiko_calls
+Python/3ba6a4c6-ed44-42fd-92ad-cfba44c3f5aa_0.py,78,"subprocess call with shell=True identified, security issue.",HIGH,B602,subprocess_popen_with_shell_equals_true
+Python/3d5aa56d-c9ac-40de-9ace-a59a74ce9091_0.py,330,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,LOW,B311,blacklist
+Python/3d5aa56d-c9ac-40de-9ace-a59a74ce9091_0.py,330,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,LOW,B311,blacklist
+Python/3dc41df5-e2b3-45da-a61a-0390ee9c093c_1.py,259,Possible hardcoded password: 'your_client_secret',LOW,B105,hardcoded_password_string
+Python/3f615ac3-2dd3-4dba-9456-3ff8f5530628_0.py,259,Possible hardcoded password: 'your_password',LOW,B105,hardcoded_password_string
+Python/406ef53d-9b48-4433-88f6-66cdaf1aff1e_2.py,400,Requests call without timeout,MEDIUM,B113,request_without_timeout
+Python/440407a1-df1c-4f1e-84b9-76ffec9fd918_0.py,400,Requests call without timeout,MEDIUM,B113,request_without_timeout
+Python/4435152f-ba13-45a5-a116-eb4f57b27ab2_0.py,330,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,LOW,B311,blacklist
+Python/4435152f-ba13-45a5-a116-eb4f57b27ab2_0.py,330,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,LOW,B311,blacklist
+Python/4c2ffc97-0469-4ec5-a1ff-2277e75ec882_1.py,400,Requests call without timeout,MEDIUM,B113,request_without_timeout
+Python/5aceca75-426a-42e9-bce1-3c90ce467586_0.py,259,Possible hardcoded password: 'dein_rpc_passwort',LOW,B105,hardcoded_password_string
+Python/5aceca75-426a-42e9-bce1-3c90ce467586_1.py,259,Possible hardcoded password: 'dein_rpc_passwort',LOW,B105,hardcoded_password_string
+Python/5ce5fe49-10e4-44bf-b8f9-f154cd73212c_0.py,400,Requests call without timeout,MEDIUM,B113,request_without_timeout
+Python/5ce5fe49-10e4-44bf-b8f9-f154cd73212c_1.py,400,Requests call without timeout,MEDIUM,B113,request_without_timeout
+Python/5dba4c81-dd67-4247-becc-32e90d1bda5e_0.py,400,Requests call without timeout,MEDIUM,B113,request_without_timeout
+Python/60872539-7283-4552-ab65-987164e94431_1.py,400,Requests call without timeout,MEDIUM,B113,request_without_timeout
+Python/6a5e1c60-b9a2-42bb-9b23-39e61358b577_0.py,330,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,LOW,B311,blacklist
+Python/6a5e1c60-b9a2-42bb-9b23-39e61358b577_0.py,330,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,LOW,B311,blacklist
+Python/6a5e1c60-b9a2-42bb-9b23-39e61358b577_0.py,330,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,LOW,B311,blacklist
+Python/6a5e1c60-b9a2-42bb-9b23-39e61358b577_0.py,330,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,LOW,B311,blacklist
+Python/6a5e1c60-b9a2-42bb-9b23-39e61358b577_0.py,330,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,LOW,B311,blacklist
+Python/6d2cf27c-1323-4136-942b-81952b7b9380_0.py,94,"A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.",HIGH,B201,flask_debug_true
+Python/720c1c30-6ee6-444b-b3b4-48eaec04bcd4_0.py,259,Possible hardcoded password: 'This is a secret payload!',LOW,B105,hardcoded_password_string
+Python/720c1c30-6ee6-444b-b3b4-48eaec04bcd4_1.py,327,The pyCrypto library and its module AES are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,B413,blacklist
+Python/720c1c30-6ee6-444b-b3b4-48eaec04bcd4_1.py,327,The pyCrypto library and its module get_random_bytes are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,B413,blacklist
+Python/720c1c30-6ee6-444b-b3b4-48eaec04bcd4_1.py,327,The pyCrypto library and its module pad are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,B413,blacklist
+Python/720c1c30-6ee6-444b-b3b4-48eaec04bcd4_1.py,259,Possible hardcoded password: 'This is a secret payload!',LOW,B105,hardcoded_password_string
+Python/7bbda216-f232-4080-99ab-814bf63ecc0b_0.py,703,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,LOW,B101,assert_used
+Python/7f4e6b21-7c6e-4efe-9a97-615831b3c059_0.py,259,Possible hardcoded password: 'secret!',LOW,B105,hardcoded_password_string
+Python/9841c3a6-3be4-4450-b3a5-b6d7cbe81250_4.py,703,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,LOW,B101,assert_used
+Python/9913ac57-2b1e-4bce-adda-04f3521c64fe_0.py,330,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,LOW,B311,blacklist
+Python/a3634550-9752-479e-937a-b3db80c88449_0.py,94,"A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.",HIGH,B201,flask_debug_true
+Python/a3634550-9752-479e-937a-b3db80c88449_1.py,94,"A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.",HIGH,B201,flask_debug_true
+Python/a8399b03-9d33-444a-bce3-e7995d351316_0.py,78,Consider possible security implications associated with the subprocess module.,LOW,B404,blacklist
+Python/a8399b03-9d33-444a-bce3-e7995d351316_0.py,78,"subprocess call with shell=True identified, security issue.",HIGH,B602,subprocess_popen_with_shell_equals_true
+Python/b062955d-3601-4051-b6d9-80cef9228233_0.py,703,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,LOW,B101,assert_used
+Python/b4b399ef-1def-4f68-b2f1-8c56ca3858ae_1.py,330,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,LOW,B311,blacklist
+Python/b4b399ef-1def-4f68-b2f1-8c56ca3858ae_1.py,330,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,LOW,B311,blacklist
+Python/b4b399ef-1def-4f68-b2f1-8c56ca3858ae_1.py,330,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,LOW,B311,blacklist
+Python/b4b399ef-1def-4f68-b2f1-8c56ca3858ae_1.py,330,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,LOW,B311,blacklist
+Python/b4b399ef-1def-4f68-b2f1-8c56ca3858ae_1.py,330,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,LOW,B311,blacklist
+Python/b50a1f89-6c17-413b-aeb0-a04ef43c831c_0.py,78,Consider possible security implications associated with the subprocess module.,LOW,B404,blacklist
+Python/b50a1f89-6c17-413b-aeb0-a04ef43c831c_0.py,78,"subprocess call with shell=True identified, security issue.",HIGH,B602,subprocess_popen_with_shell_equals_true
+Python/b61ad56e-05cc-4c61-93fb-0ed0221f6b13_1.py,20,Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().,MEDIUM,B506,yaml_load
+Python/c902a4fb-96ce-446d-9529-dfa1a652ca16_0.py,703,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,LOW,B101,assert_used
+Python/c9e107c8-e424-4260-a85e-0bffcf334e2b_1.py,703,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,LOW,B101,assert_used
+Python/c9e107c8-e424-4260-a85e-0bffcf334e2b_1.py,703,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,LOW,B101,assert_used
+Python/c9e107c8-e424-4260-a85e-0bffcf334e2b_1.py,703,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,LOW,B101,assert_used
+Python/cd181779-6d66-4e6c-9a4c-4bfd25db80b0_0.py,400,Requests call without timeout,MEDIUM,B113,request_without_timeout
+Python/d5ccfa00-a3b3-4ce0-9e00-e64174eba2c5_1.py,400,Requests call without timeout,MEDIUM,B113,request_without_timeout
+Python/e83ec1f2-6a02-4d41-a851-f76dfc011d39_2.py,94,"A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.",HIGH,B201,flask_debug_true
+Python/eb6683ba-6540-433f-a598-03bc57b13f4f_0.py,400,Requests call without timeout,MEDIUM,B113,request_without_timeout
+Python/eb6683ba-6540-433f-a598-03bc57b13f4f_0.py,94,"A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.",HIGH,B201,flask_debug_true
+Python/f9b4f1d0-cedb-4576-a145-ad3eac345d27_1.py,703,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,LOW,B101,assert_used
+Python/f9b4f1d0-cedb-4576-a145-ad3eac345d27_1.py,703,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,LOW,B101,assert_used
+Python/f9b4f1d0-cedb-4576-a145-ad3eac345d27_1.py,703,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,LOW,B101,assert_used
+Python/f9b4f1d0-cedb-4576-a145-ad3eac345d27_1.py,703,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,LOW,B101,assert_used
+Python/f9b4f1d0-cedb-4576-a145-ad3eac345d27_1.py,703,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,LOW,B101,assert_used
+Python/fdef9ad7-bd4b-431e-bddb-24572a1fccee_0.py,330,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,LOW,B311,blacklist
+Python/fdef9ad7-bd4b-431e-bddb-24572a1fccee_0.py,400,Requests call without timeout,MEDIUM,B113,request_without_timeout
+Python/fea426fb-cb02-4b38-9f42-128f59115fc4_0.py,330,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,LOW,B311,blacklist
+Python/fea426fb-cb02-4b38-9f42-128f59115fc4_0.py,330,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,LOW,B311,blacklist
+Python/ff041b92-992d-40f0-b411-42a49ff0b3e3_1.py,94,"By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities.",HIGH,B701,jinja2_autoescape_false
+Python/ffa45c61-8b7a-44e1-b757-041f31df5099_0.py,400,Requests call without timeout,MEDIUM,B113,request_without_timeout
+Python/ffa45c61-8b7a-44e1-b757-041f31df5099_0.py,400,Requests call without timeout,MEDIUM,B113,request_without_timeout
+Python/ffa45c61-8b7a-44e1-b757-041f31df5099_1.py,400,Requests call without timeout,MEDIUM,B113,request_without_timeout
+Python/ffa45c61-8b7a-44e1-b757-041f31df5099_1.py,400,Requests call without timeout,MEDIUM,B113,request_without_timeout
